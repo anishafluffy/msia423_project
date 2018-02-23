@@ -1,0 +1,32 @@
+<!-- index.html-->
+
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+
+<style>
+	input[type=submit] {
+	    padding:10px 30px; 
+	    background:orange; 
+	    border:0 none;
+	    cursor:pointer;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px; 
+	}
+</style>
+
+<div class="jumbotron">
+  <h1>Cuisine prediction</h1>
+  <p class="lead">Model built on recipes from Yummly.</p>
+  <h3>Please enter your ingredients:</h3>
+  	<form action="{{ url_for('handle_data') }}" method="post">
+	  	<!--input type = "text" name="ingredients"-->
+	  	<textarea rows="3" cols="30" name="ingredients"></textarea><br><br>
+		<input type = "submit" value="Submit">
+	</form>
+    <br>
+    <br>
+
+</div>
+
+{% endblock %}
