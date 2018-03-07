@@ -8,7 +8,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(basedir, 'application.db')
     #SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flasktest:Desktop01@animaloutcomes.c76qrkgxophn.us-east-1.rds.amazonaws.com/animaloutcomes'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
- 
+
 # Enable Flask's debugging features. Should be False in production
 #DEBUG = True
 
