@@ -7,6 +7,14 @@ from nltk.stem import WordNetLemmatizer
 
 
 def clean_data(path):
+	"""
+	This function creates a cleaned DataFrame from json file training data
+	Args:
+		path (str): path to training data json file
+	Returns:
+		DataFrame: Entire specified data table
+	"""
+
     #import data
     df = pd.read_json(path)
     #clean data
