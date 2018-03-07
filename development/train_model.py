@@ -15,22 +15,21 @@ from sklearn import metrics
 import pickle
 from sklearn.externals import joblib
 
-from clean_data import clean_data
+#from clean_data import clean_data
 
 def train_model(training_df):
     """
     This function vectorizes the ingredients training dataset using TfidfVectorizer. 
     Next fits a logistic regression model on the vectorized data to classify cuisine. 
-    It creates two pickle files, the vectorizer and the model, so that they can be used in prediction.
+    It creates two pickle files, the vectorizer and the model, so that they can be used for prediction.
     
     Arg:
       training_df (DataFrame): data to be used for fitting the model
-
+    
     Returns:
-      ve.pkl: vectorizer stored as pickle file
-      cl.pkl: classifier stored as pickle file
+      ve.pkl: vectorizer stored as pickle file to be used for prediction
+      cl.pkl: classifier stored as pickle file to be used for prediction
     """
-
     #instantiate vectorizer
     vect = TfidfVectorizer(stop_words = 'english', #remove standard english stop words
                            ngram_range = (1 , 1), #range of n-values for different n-grams to be extracted
@@ -50,8 +49,6 @@ def train_model(training_df):
     parameters = {'C':[1, 10]}
     classifier = GridSearchCV(clf, parameters)
     classifier = classifier.fit(predictors, response) 
-    # return vect, classifier
-
     #create pickle files
     joblib.dump(vect, 've.pkl') 
     joblib.dump(classifier, 'cl.pkl') 

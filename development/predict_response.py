@@ -25,15 +25,12 @@ def predict_response(user_input):
     Returns:
         response_output: predicted cuisine to be displayed on web app
     """
-
     #load pickle vectorizer & classifier
     vect = joblib.load('./development/ve.pkl')
     classifier = joblib.load('./development/cl.pkl')
-    
     #vectorize the input
     predictors_input = vect.transform([user_input])
     predictors_input.toarray()
-    
     #predict response
     response_output = ''.join(classifier.predict(predictors_input))
     return response_output
