@@ -2,7 +2,7 @@
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from config import Config
+#from config import config
 import sqlalchemy
 
 # Initialize the app
@@ -12,7 +12,7 @@ application = Flask(__name__)
 #from app import views
 
 # Load the config file
-application.config.from_object(Config)
+application.config.from_object('config')
 
 # config
 #application.config.from_envvar('MSIA_SETTINGS', silent=True)

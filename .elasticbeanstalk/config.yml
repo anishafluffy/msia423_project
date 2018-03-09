@@ -1,6 +1,8 @@
 branch-defaults:
   anisha:
     environment: Msia423Example-env
+  master:
+    environment: Msia423Example-env
 environment-defaults:
   Msia423Example-env:
     branch: null
