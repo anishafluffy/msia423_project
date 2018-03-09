@@ -14,4 +14,8 @@ class Config(object):
 
 #SECRET_KEY = 'development_key'
 #SQLALCHEMY_DATABASE_URI = 'sqlite:////tmp/tracks.db'
+<<<<<<< HEAD
 #SQLALCHEMY_TRACK_MODIFICATIONS = False
+=======
+#SQLALCHEMY_TRACK_MODIFICATIONS = False
+>>>>>>> dfc802f79bd5864e2e36b9b3357c6ec676ead0b1
