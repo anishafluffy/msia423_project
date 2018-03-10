@@ -7,6 +7,9 @@ environment-defaults:
   Msia423Example-env:
     branch: null
     repository: null
+  cuisine-dev:
+    branch: null
+    repository: null
 global:
   application_name: msia423-example
   default_ec2_keyname: aws-eb
