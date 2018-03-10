@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from pandas import Series, DataFrame
-import nltk
+#import nltk
 #import re
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
