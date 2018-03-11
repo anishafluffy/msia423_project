@@ -1,8 +1,11 @@
 # Web App for MSiA 423 Analytics Value Chain Class
 
 Developer: Anisha Dubhashi  
+
 Project Owner: Jerry Chen  
+
 QA: Yiwei Sun  
+
 
 ## Project Charter
 
