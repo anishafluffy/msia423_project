@@ -27,7 +27,7 @@ body, html {height: 100%}
   <div class="w3-display-middle" align="center">
     <h1 class="w3-jumbo w3-animate-top">Cuisine Machine</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Please enter your ingredients:</p>
+    <p class="w3-large w3-center">Enter your ingredients:</p>
   	<form action="{{ url_for('handle_data') }}" method="post">
 	  	<textarea rows="3" cols="30" name="ingredients"></textarea><br><br>
 		<input type = "submit" value="Submit">
