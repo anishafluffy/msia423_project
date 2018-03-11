@@ -32,7 +32,8 @@ def predict_response(user_input):
     predictors_input = vect.transform([user_input])
     predictors_input.toarray()
     #predict response
-    response_output = ''.join(classifier.predict(predictors_input))
+    response_output_raw = ''.join(classifier.predict(predictors_input))
+    response_output = response_output_raw.capitalize().split('_')[0]
     return response_output
 
 
