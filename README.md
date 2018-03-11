@@ -1,6 +1,10 @@
-#Web App for MSiA 423 Analytics Value Chain Class
+# Web App for MSiA 423 Analytics Value Chain Class
 
-##Project Charter
+Developer: Anisha Dubhashi
+Project Owner: Jerry Chen
+QA: Yiwei Sun
+
+## Project Charter
 
 ### Vision 
 Help people choose a cuisine for the next meal they cook based on ingredients they have in their pantry. This functionality will increase users' interactions with the recipe site, increasing engagement, retention, and brand awareness. 
@@ -10,4 +14,8 @@ Create a web app to predict the category of a dish's cuisine given  a user's inp
 
 ### Success criteria 
 This project will be successful if the model is deployed on AWS, and if the user inputs in the web app score the model in real-time. 
+
+### Dataset 
+Over 40k recipes from Yummly including ingredients and classified cuisines: https://www.kaggle.com/kaggle/recipe-ingredients-dataset/data 
+
 
