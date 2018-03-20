@@ -57,12 +57,11 @@ Presentation with project overview, including motivation, data description, mode
     │    │   ├── index.html 				<- homepage with data entry  
     │    │   │
     │    │   ├── handle_data.html 			<- prediction page with response  
-    │    │   │
+    │    │   
     │    ├── __init__.py 			<- initializes flask  
     │    │
     │    ├── models.py 				<- creates database  
-    │    │
-    │    │
+    │    
     ├── development         	<- stores everything related to data analysis and model build  
     │    │        
     │    ├── data              		<- test & train data from kaggle in .json files  
@@ -78,7 +77,7 @@ Presentation with project overview, including motivation, data description, mode
     │    ├── cl.pkl        			<- logistic regression classifier saved as pkl file  
     │    │ 
     │    ├── ve.pkl        			<- vectorizer saved as pkl file   
-    │    │
+    │    
     ├── docs                	<- stores Sphinx documentation   
     │   
     ├── static              	<- stores webapp background images    
