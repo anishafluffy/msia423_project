@@ -26,9 +26,9 @@ Over 40k recipes from Yummly including ingredients and classified cuisines: http
 
 
 ### Project Organization   
-├── README.md           <- README for developers using this project  
-├── app                 <- stores everything related to front-end web app  
-  ├── static 				<- stores webapp background images   
+├── README.md           <- README for developers using this project  <br />
+├── app                 <- stores everything related to front-end web app  <br />
+  ├── static 				<- stores webapp background images   <br />
   ├── templates 			<- stores webapp html   
     ├── index.html 				<- homepage with data entry  	
     ├── handle_data.html 		<- prediction page with response  
