@@ -4,6 +4,8 @@ from predict_response import predict_response
 
 #test the following functions by checking if the function output matches with the desired
 
+#to run in command line: pytest test.py
+
 def clean_data(path):
 	df = clean_data("../data/train.json")
 	assert type(df) is pd.core.frame.DataFrame
