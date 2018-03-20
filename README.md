@@ -28,10 +28,10 @@ Over 40k recipes from Yummly including ingredients and classified cuisines: http
 ### Project Organization   
 ├── README.md           <- README for developers using this project   
 ├── app                 <- stores everything related to front-end web app   
-  &nbsp;├── static 				<- stores webapp background images   
-  &nbsp;├── templates 			<- stores webapp html   
-    ├── index.html 				<- homepage with data entry  
-    ├── handle_data.html 		<- prediction page with response  
+  >├── static 				<- stores webapp background images   
+  >├── templates 			<- stores webapp html   
+    >>├── index.html 				<- homepage with data entry  
+    >>├── handle_data.html 		<- prediction page with response  
   ├── __init__.py 			<- initializes flask  
   ├── models.py 			<- creates database  
 ├── development         <- stores everything related to data analysis and model build                   
