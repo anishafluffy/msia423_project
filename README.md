@@ -19,6 +19,8 @@ This project will be successful if the model is deployed on AWS, and if the user
 ### Dataset 
 Over 40k recipes from Yummly including ingredients and classified cuisines: https://www.kaggle.com/kaggle/recipe-ingredients-dataset/data 
 
+### Final presentation 
+Presentation with project overview, including motivation, data description, model description, and webapp screenshot: [[deck](https://github.com/anishafluffy/msia423_project/blob/final_updates/cuisine_machine_deck.pdf)]
 
 ### Steps
 ```
