@@ -1,4 +1,6 @@
-# Web App for MSiA 423 Analytics Value Chain Class
+# Cuisine Machine
+
+##Web App for MSiA 423 Analytics Value Chain Class
 
 ### Team  
 Developer: Anisha Dubhashi   
@@ -7,13 +9,13 @@ QA: Yiwei Sun
 
 ### Project Charter
 
-### Vision 
+#### Vision 
 Help people choose a cuisine for the next meal they cook based on ingredients they have in their pantry. This functionality will increase users' interactions with the recipe site, increasing engagement, retention, and brand awareness. 
 
-### Mission 
+#### Mission 
 Create a web app to predict the category of a dish's cuisine given  a user's input of a list of ingredients. The underlying model will be a classification model based on 40,000 recipes from Yummly. The data includes the cuisine and list of ingredients for each recipe id in json files. 
 
-### Success criteria 
+#### Success criteria 
 This project will be successful if the model is deployed on AWS, and if the user inputs in the web app score the model in real-time. 
 
 ### Dataset 
@@ -92,14 +94,3 @@ Presentation with project overview, including motivation, data description, mode
 
 ### Pivotal Tracker Link 
 https://www.pivotaltracker.com/n/projects/2141920 
-
-
-
-
-
-
-
-
-
-
-
