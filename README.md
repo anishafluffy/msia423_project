@@ -1,6 +1,6 @@
 # Cuisine Machine
 
-##Web App for MSiA 423 Analytics Value Chain Class
+## Web App for MSiA 423 Analytics Value Chain Class
 
 ### Team  
 Developer: Anisha Dubhashi   
